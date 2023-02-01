@@ -2,3 +2,10 @@
 This line added from github editor.
 
 
+
+
+;----------------------------------------------
+; doing some testing with ctrl-alt-T shortcut
+^!T::Run "Terminal git-bash.exe"
+;----------------------------------------------
+
