@@ -7,4 +7,7 @@ This line added from github editor.
 This is written on my computer again!!!!!!!!!
 
 
-
+;----------------------------------------------
+; doing some testing with ctrl-alt-T shortcut
+^!T::Run "Terminal git-bash.exe"
+;----------------------------------------------
