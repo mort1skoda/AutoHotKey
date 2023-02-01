@@ -1,10 +1,4 @@
-Testing merge:
-
-This line is written on my computer.
 
 This line added from github editor.
-
-This is written on my computer again!!!!!!!!!
-
 
 
