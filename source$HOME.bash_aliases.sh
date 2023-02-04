@@ -1,3 +1,3 @@
-source $HOME/.bash_aliases
+source /rep/arch.dwm/.bash_aliases
 
 
