@@ -1,3 +1,3 @@
-source d/winux/rep/arch.dwm/.bash_aliases
+source /d/winux/rep/arch.dwm/.bash_aliases
 
 
