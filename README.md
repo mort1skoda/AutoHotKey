@@ -4,7 +4,7 @@
 
 Use Git Bash on Windows 10
 
-Generate toke to log in
+Generate token to log in
 go to your git hub
 on the upper right side Settings
 Then down at the left developer settings
