@@ -12,12 +12,7 @@ generate token classic
 
 
 <pre>
-the file:
-myWin10autoHotKeys.ahk
-contains my prefered hotkey shortcuts
-for windows.
-
-Location on my laptop asus.k50 :::
-C:\Users\Public\Documents\AutoHotKey\myWin10autoHotKeys.ahk
-
+Location on my laptop asus.k50
+C:\Users\Public\Documents\AutoHotKey\202302.ahk
 </pre>
+

@@ -1,8 +1,8 @@
 ﻿#Requires AutoHotkey v2.0
 
 ; remap keys caps to esc  and esc to ctrl-b
-CapsLock::Escape
-Escape::^b
+;CapsLock::Escape
+;Escape::^b
 
 #A::run "cmd"
 #B::Run "notepad"
@@ -25,4 +25,7 @@ Escape::^b
 ^#C::Run "C:\"
 ^#D::Run "D:\"
 
+
+#t::run "cmd"
+#w::run "firefox"
 
