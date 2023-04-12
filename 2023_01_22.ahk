@@ -1,14 +1,10 @@
 ﻿#Requires AutoHotkey v2.0 ;;;
  
 ;;; remapping of single keys ;;;;;;;;;;;;;;;;;;{{{ 
-
-;;; remap caps lock to esc for vim
 CapsLock::Esc
-
 ;;; remap esc to ctrl+b tmux prefix
-Esc::^b
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;}}}
+;Esc::^b
+;........................................}}}
 
 
 ;;; WIN ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;{{{
@@ -16,7 +12,7 @@ Esc::^b
 ;MsgBox "Hello, world!"
 
 ; WIN + B  (bash for git)
-#b::Run "Git Bash"
+;#b::Run "Git Bash"
 
 ; WIN + C
 ;;;
@@ -27,7 +23,7 @@ Esc::^b
 ; WIN + E  (explorer)
 ;;;
 
-; WIN + F  (Firefox) 
+; WIN + W  (Firefox) 
 #f::Run "C:\Program Files\Mozilla Firefox\firefox.exe" 
 
 ; WIN + G  
@@ -37,37 +33,33 @@ Esc::^b
 ;;;
 
 ;;; WIN + S  (systemProperties)
-#s::Run "C:\Windows\System32\SystemPropertiesAdvanced.exe"
+;#s::Run "C:\Windows\System32\SystemPropertiesAdvanced.exe"
 
 ; WIN + T  (terminal: cmd)
-#t::Run "C:\Users\Monica"
+;#t::Run "C:\Users\Monica"
 
 ; WIN + W  (winux)
-#w::run "explorer.exe C:\Users\Monica"
+;#w::run "explorer.exe C:\Users\Monica"
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;}}}
-
 
 
 ;;; CTRL + WIN ;;;;;;;;;;;;;;;;;;;;;;;;;{{{
 
 ;;; CTRL + WIN + D  (Debian wsl)
-^#d::run "debian"
+;^#d::run "debian"
 
 ;;; CTRL + WIN + U  (Ubuntu2004)
-^#u::Run "Ubuntu2004"
+;^#u::Run "Ubuntu2004"
 
 ;;; CTRL + WIN + W  (winux)
-;;; ^#w::run 
+; ^#w::run 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;}}}
-
 
 
 ;;; WIN + ALT ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;{{{
 
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;}}
-
-	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;}}}
 
 
