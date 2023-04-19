@@ -1,65 +1,63 @@
 ﻿#Requires AutoHotkey v2.0 ;;;
  
 ;;; remapping of single keys ;;;;;;;;;;;;;;;;;;{{{ 
+; swap escape and caps lock
 CapsLock::Esc
-;;; remap esc to ctrl+b tmux prefix
-;Esc::^b
+Esc::CapsLock
 ;........................................}}}
 
 
-;;; WIN ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;{{{
-; WIN + A
-;MsgBox "Hello, world!"
-
-; WIN + B  (bash for git)
-;#b::Run "Git Bash"
-
-; WIN + C
-;;;
-
-; WIN + D  (desktop)
-;;;
-
-; WIN + E  (explorer)
-;;;
-
-; WIN + W  (Firefox) 
-#f::Run "C:\Program Files\Mozilla Firefox\firefox.exe" 
-
-; WIN + G  
-;;;
-
-; WIN + H
-;;;
-
-;;; WIN + S  (systemProperties)
-;#s::Run "C:\Windows\System32\SystemPropertiesAdvanced.exe"
-
-; WIN + T  (terminal: cmd)
-;#t::Run "C:\Users\Monica"
-
-; WIN + W  (winux)
-;#w::run "explorer.exe C:\Users\Monica"
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;}}}
+;;; SUPER ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;{{{
+#a::MsgBox "super+a"
+#b::MsgBox "super+b"
+#c::Run "control"
+#d::MsgBox "super+d"
+#e::Run "explorer.exe g:\"
+#f::MsgBox "super+f"
+#g::Run "gvim"
+;#g::MsgBox "super+g" ; requires turn off gaming in settings
+#h::MsgBox "super+h"
+;#i::MsgBox "super+i"
+#j::MsgBox "super+j"
+#k::MsgBox "super+k"
+#l::MsgBox "super+l" ; requires HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System\   DisableLockWorkstation = 1
+#m::MsgBox "super+m"
+#n::MsgBox "super+n"
+#o::MsgBox "super+o"
+#p::MsgBox "super+p"
+#q::MsgBox "super+q"
+;#r::Run "run"
+#s::MsgBox "super+s"
+#t::MsgBox "super+t"
+#u::MsgBox "super+u"
+;#v::MsgBox "super+v"
+#v::Run "C:\Program Files\Oracle\VirtualBox\VirtualBox.exe"
+#w::Run "firefox.exe" 
+#x::MsgBox "super+x"
+#y::MsgBox "super+y"
+#z::MsgBox "super+z"
+;C:\Program Files\Oracle\VirtualBox
+;........................................}}}
 
 
-;;; CTRL + WIN ;;;;;;;;;;;;;;;;;;;;;;;;;{{{
+;;; SUPER + CTRL ;;;;;;;;;;;;;;;;;;;;;;;;;{{{
+^#a::MsgBox "super+ctrl+a"
+^#w::Run "chrome"
 
-;;; CTRL + WIN + D  (Debian wsl)
-;^#d::run "debian"
-
-;;; CTRL + WIN + U  (Ubuntu2004)
-;^#u::Run "Ubuntu2004"
-
-;;; CTRL + WIN + W  (winux)
-; ^#w::run 
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;}}}
+;.................................... }}}
 
 
-;;; WIN + ALT ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;{{{
+;;; SUPER + SHIFT ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; {{{
++#a::MsgBox "super+shift+a"
++#q::Run "shutdown /L"
++#w::Run "msedge"
+
+;.......................................... }}}
 
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;}}}
+;;; SUPER + ALT ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; {{{
+!#a::MsgBox "super+alt+a"
+;!#w::Run "C:\Program Files\SeaMonkey\seamonkey.exe -url linuxfromscratch.org"
 
+;.......................................... }}}
 
