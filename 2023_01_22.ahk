@@ -8,7 +8,8 @@ Esc::CapsLock
 
 
 ;;; SUPER ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;{{{
-#a::MsgBox "super+a"
+;#a::MsgBox "super+a"
+#a::Reload
 #b::MsgBox "super+b"
 #c::Run "control"
 #d::MsgBox "super+d"
