@@ -1,6 +1,6 @@
 ﻿#Requires AutoHotkey v2.0 ;;;
  
-;;; remapping of single keys ;;;;;;;;;;;;;;;;;;{{{ 
+;;;  remapping of single keys ;;;;;;;;;;;;;;;;;;{{{ 
 ; swap escape and caps lock
 CapsLock::Esc
 Esc::CapsLock
